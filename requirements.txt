@@ -1,2 +1,4 @@
 behave
 selenium
+webdriver-manager
+packaging
