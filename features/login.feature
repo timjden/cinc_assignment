@@ -2,7 +2,7 @@ Feature: Login
     Testing Login
 
         Scenario Outline: Login
-        Given User is on the home page
+        Given User is on the Home page
         When User clicks Log In
         Then Log in dialog pops up
         When User enters username: <username>
