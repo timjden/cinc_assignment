@@ -12,9 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: python -m pip install -r requirements.txt
-      - run: ls
-      - run: cd features
-      - run: pwd
-      - run: behave -v
-      - run: pwd
+      - name: Run a multi-line script
+        run: |
+          python -m pip install -r requirements.txt,
+          cd features,
+          behave -v
