@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: python -m pip install -r requirements.txt
-      - run: cd cinc_assignment/features
+      - run: cd features
       - run: pwd
       - run: behave -v
+      - run: pwd
