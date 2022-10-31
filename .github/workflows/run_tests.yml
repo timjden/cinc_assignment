@@ -28,4 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install dependencies and execute tests
         run:
-          pwd
+          python -m pip install -r requirements.txt
+          cd features
+          behave
