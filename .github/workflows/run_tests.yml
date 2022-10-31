@@ -14,6 +14,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          python -m pip install -r requirements.txt,
-          cd features,
+          python -m pip install -r requirements.txt
+          cd features
           behave -v
