@@ -2,3 +2,4 @@ behave
 selenium
 webdriver-manager
 packaging
+allure-behave
