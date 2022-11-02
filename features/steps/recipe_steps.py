@@ -18,6 +18,7 @@ def step_impl(context):
 def step_impl(context):
     units_xpath = "/html/body/div/div[2]/div/div/div[3]/div[1]/div[1]/div[2]/ul[1]/li[2]/span[1]"
     click_element(context, units_xpath)
+    time.sleep(1)
 
 @when("User clicks Metric")
 def step_impl(context):
@@ -39,6 +40,7 @@ def step_impl(context):
 def step_impl(context):
     scale_xpath = "/html/body/div/div[2]/div/div/div[3]/div[1]/div[1]/div[2]/ul/li[1]/span[1]/span[1]"
     hover_element(context, scale_xpath)
+    time.sleep(1)
 
 @when("User scales recipe X2")
 def step_impl(context):

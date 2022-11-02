@@ -6,6 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 def before_all(context):
     context.options = webdriver.ChromeOptions()
     context.options.add_experimental_option("detach", True)
+    context.options.add_argument("--log-level=3")
     context.options.add_argument("--no-sandbox")
     context.options.add_argument("--disable-extensions")
     context.options.add_argument("--headless")
