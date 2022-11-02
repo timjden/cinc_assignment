@@ -53,7 +53,7 @@ def step_impl(context, title):
     title_xpath = "/html/body/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/label/input"
     wait_for_element_visibility(context, title_xpath)
     title_element = context.driver.find_element(By.XPATH, title_xpath)
-    context.title_text = f"{title} {random.randint(0, 1000)}" # There is a bug on the website that does not allow adding a Collection with same name as a deleted Collection
+    context.title_text = f"{title} {random.randint(0, 1000000)}" # There is a bug on the website that does not allow adding a Collection with same name as a deleted Collection
     title_element.send_keys(context.title_text)
 
 @when("User clicks Save")
