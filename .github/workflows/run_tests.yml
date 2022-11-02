@@ -44,6 +44,7 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
       
+      - uses: actions/checkout@v2
       - name: Post the link to the report
         if: always()
         uses: Sibz/github-status-action@v1
