@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Nov 02 18:33:35 GMT 2022","Wed Nov 02 18:33:49 GMT 2022","13392","","","","","","User can add a Collection with the same name as a deleted Collection -- @1.1 ",""
+"passed","Wed Nov 02 18:33:18 GMT 2022","Wed Nov 02 18:33:35 GMT 2022","17199","","","","","","Add a Recipe to a Collection -- @1.1 ",""
+"broken","Wed Nov 02 18:33:49 GMT 2022","Wed Nov 02 18:33:59 GMT 2022","10370","","","","","","Login -- @1.1 ",""
+"passed","Wed Nov 02 18:33:13 GMT 2022","Wed Nov 02 18:33:18 GMT 2022","4652","","","","","","Add a Collection -- @1.1 ",""
